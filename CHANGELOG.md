@@ -11,11 +11,6 @@ All notable changes to this project will be documented in this file.
 - Added facade/ignition-self-diagnosis to for useful checklist of things that could get fixed when encountering an error
 - Added facade/ignition-tinker-tab which adds a tinker tab in ignition which uses laravel tinker behind the scenes to be able to use tinker right from error screens
 
-### Changed
-
-- Update to Laravel Commit 953b488b8bb681d4d6e12227645c7c1b7ac26935 (Without password confirmation stuff)
-- Fix socialite bug (https://github.com/rappasoft/laravel-boilerplate/issues/1284)
-
 ## [6.0.0] - 2019-09-08
 ### Added
 - Added captcha to login request
@@ -52,65 +47,9 @@ All notable changes to this project will be documented in this file.
 - Removed letrunghieu/active for homegrown one since I’m not waiting for them to update to laravel 6.0
 - Removed owen-it/laravel-auditing until it supports Laravel 6.0
 
-## [5.3.8] - 2019-08-21
-### Added
-- Added Azerbaijan language (https://github.com/rappasoft/laravel-boilerplate/pull/1254)
-- Added NIST Password Rules (https://github.com/rappasoft/laravel-boilerplate/pull/1258)
-
-### Changed
-- Assign all permissions to the Admin role without the need to explicitly assign the roles/permissions to the user. (https://github.com/rappasoft/laravel-boilerplate/pull/1227)
-
 ### Removed
 - Removed default Google scopes (https://github.com/rappasoft/laravel-boilerplate/pull/1253/files)
 - Removed ChangePassword rule as the new NIST rules cover it
-
-## 5.3.7 - 2019-08-21
-### Added
-- Actual changelog
-
-### Changed
-- Repository name since 6.0 is about to release
-- Upgrade to laravel commit bb433725483803a27f21d3b21317072610bc3e9c
-
-## 5.3.6 - 2019-06-28
-### Changed
-- Update to Laravel commit ebc6f6e2c794b07c6d432483fd654aebf2ffe222
-- Update frontend dependencies
-
-## 5.3.5 - 2019-05-03
-### Changed
-- Fix jQuery vulnerability. 
-
-## 5.3.4 - 2019-04-29
-### Added
-- Added demo mode that anyone can use to give demos of their application without worrying about users altering data.
-
-## 5.3.3 - 2019-04-28
-### Added
-- Added shouldDiscoverEvents but default to false
-- Add missing tooltip call to plugins.js
-
-### Changed
-- Update Dutch language files
-- Upgrade to Laravel commit: 3995828c13ddca61dec45b8f9511a669cc90a15c
-- Composer update
-- Default send confirmation email on new users to off since confirmed is defaulted to on
-- Move log viewer links under isAdmin
-- Execute SubstituteBindings after LocaleMiddleware
-
-### Fixed
-- SESSION_ENCRYPT env wasn’t hooked up to session config
-- Fix Google analytics add on
-- Fix redis default in env file
-
-## 5.3.2 - 2019-03-31
-### Changed
-- Replace simple line icons with font awesome
-- Update and run php-cs-fixer
-
-## 5.3.1 - 2019-03-31
-### Changed
-- PR: https://github.com/rappasoft/laravel-boilerplate/pull/1221
 
 ## 5.3.0 - 2019-03-30
 ### Added
@@ -155,8 +94,3 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Fix yarn tests
 - Fix: Socially logged in users get assigned the default role
-
-[Unreleased]: https://github.com/rappasoft/laravel-boilerplate/compare/v6.0.1...development
-[6.0.1]: https://github.com/rappasoft/laravel-boilerplate/compare/v6.0.0...v6.0.1
-[6.0.0]: https://github.com/rappasoft/laravel-boilerplate/compare/v5.3.8...v6.0.0
-[5.3.8]: https://github.com/rappasoft/laravel-boilerplate/compare/v5.3.7...v5.3.8
