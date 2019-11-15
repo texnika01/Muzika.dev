@@ -15,9 +15,9 @@ return [
 
     'backend' => [
         'access' => [
-            'title' => 'Администрирование',
+            'title' => 'Администрация',
             'roles' => [
-                'all' => 'Все роли',
+                'all' => 'Всички роли',
                 'create' => 'Создать роль',
                 'edit' => 'Редактировать роль',
                 'management' => 'Управление доступом',
@@ -41,12 +41,12 @@ return [
         ],
         'sidebar' => [
             'dashboard' => 'Системная панель',
-            'general' => 'Главная',
+            'general' => 'Начална',
             'system' => 'Система',
         ],
     ],
     'language-picker' => [
-        'language' => 'Язык',
+        'language' => 'Език',
         /*
          * Add the new language to this array.
          * The key should have the same language code as the folder name.
@@ -54,10 +54,11 @@ return [
          * Be sure to add the new language in alphabetical order.
          */
         'langs' => [
-            
+           
             'en' => 'Английский (English)',
             'ru' => 'Русский (Russian)',
             'bg' => 'Български (Български)',
+            
         ],
     ],
 ];
