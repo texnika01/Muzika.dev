@@ -39,9 +39,16 @@ return [
             'timeout' => 'You were automatically logged out for security reasons since you had no activity in ',
 
             'see_all' => [
-                'messages' => 'See all messages',
+                'messages'      => 'See all messages',
                 'notifications' => 'View all',
-                'tasks' => 'View all tasks',
+                'tasks'         => 'View all tasks',
+                'event_uploaded' => 'Event uploaded',
+                'stules_uploaded' => 'Styles upload',
+                'songs_uploaded' => 'Songs Uploaded',
+                'text_uploaded' => 'Text created',
+                'genres_uploaded' => 'Genres created',
+                'user_register' => 'User register',
+                'more_info' => 'More info',
             ],
 
             'status' => [
