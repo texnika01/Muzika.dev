@@ -54,10 +54,29 @@ return [
          * Be sure to add the new language in alphabetical order.
          */
         'langs' => [
-            
+            'ar' => 'Арабский (Arabic)',
+            'az' => 'Azerbaijan',
+            'zh' => 'Китайский (Chinese Simplified)',
+            'zh-TW' => 'Китайский (Chinese Traditional)',
+            'da' => 'Датский (Danish)',
+            'de' => 'Немецкий (German)',
+            'el' => 'Греческий (Greek)',
             'en' => 'Английский (English)',
+            'es' => 'Испанский (Spanish)',
+            'fa' => 'персидский (Persian)',
+            'fr' => 'Французский (French)',
+            'he' => 'иврит (Hebrew)',
+            'id' => 'Индонезийский (Indonesian)',
+            'it' => 'Итальянский (Italian)',
+            'ja' => 'Японский (Japanese)',
+            'nl' => 'Голландский (Dutch)',
+            'no' => 'норвежский (Norwegian)',
+            'pt_BR' => 'Бразильский Португальский (Brazilian Portuguese)',
             'ru' => 'Русский (Russian)',
-            'bg' => 'Български (Български)',
+            'sv' => 'Шведский (Swedish)',
+            'th' => 'Тайский (Thai)',
+            'tr' => 'Турецкий (Turkish)',
+            'uk' => 'Украинский (Ukrainian)',
         ],
     ],
 ];

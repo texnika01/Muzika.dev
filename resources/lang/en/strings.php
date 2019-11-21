@@ -137,5 +137,15 @@ return [
         ],
 
         'welcome_to' => 'Welcome to :place',
+        'new_song' => 'New song',
+        'top_song' => 'Top song',
+        'login_create' => 'Login or Create account',
+        'save_plylist' => 'Save and share your playlist with your friends when you log in or create an account.',
+        'download_app' => 'Download our app',
+        'download_app_info' => 'Get the apps for desktop and mobile to start listening music at anywhere and anytime.',
+        'db' => [
+            'empty_table' => 'No record in DB',
+            'empty_events' => 'Not event in moments',
+        ],
     ],
 ];

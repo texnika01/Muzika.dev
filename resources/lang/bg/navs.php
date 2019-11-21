@@ -14,21 +14,28 @@ return [
     */
 
     'general' => [
-        'home' => 'Ночало',
+        'home' => 'Начало',
         'logout' => 'Изход',
+        'genres' => 'Жанрове',
+        'events' => 'Събития',
+        'songs' => 'Песни',
+        'style' => 'Стилове',
+        'text' => 'Текстове',
+        'video' => 'Видео',
+        'user_interface' => 'Потребителско меню',
     ],
 
     'frontend' => [
-        'contact' => 'Контакт',
-        'dashboard' => 'Управление',
-        'login' => 'Вход',
-        'macros' => 'Макросы',
-        'register' => 'Регистрация',
+        'contact'   => 'Контакт',
+        'dashboard' => 'Моят Профил',
+        'login'     => 'Вход',
+        'macros'    => 'Macros',
+        'register'  => 'Регистрирай ме',
         'user' => [
-            'account' => 'Настройки на профила',
-            'administration' => 'Управление на приложението',
-            'change_password' => 'Изменить пароль',
-            'my_information' => 'Моята информация',
+            'account' => 'Потребителски, настройки',
+            'administration' => 'Администрация',
+            'change_password' => 'Смени Паролата',
+            'my_information' => 'Профилът ми',
             'profile' => 'Профил',
         ],
     ],

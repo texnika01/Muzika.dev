@@ -25,19 +25,20 @@ return [
         ],
 
         'dashboard' => [
-            'title' => 'Системен панел',
-            'welcome' => 'Добро пожаловать',
+            'title' => 'Административно табло за управление',
+            'welcome' => 'Добре дошъл : ',
         ],
 
         'general' => [
-            'all_rights_reserved' => 'Все права защищены.',
-            'are_you_sure' => 'Вы уверены?',
-            'boilerplate_link' => 'Muzika.dev',
-            'continue' => 'Продолжить',
-            'member_since' => 'Пользователь с',
-            'minutes' => 'минут',
-            'search_placeholder' => 'Поиск...',
-            'timeout' => 'Вы автоматически выведены из системы из соображений безопасности, так как Вы не были активны в течении',
+            'all_rights_reserved' => 'Всички права запазени.',
+            'are_you_sure' => 'Сигурен ли си?',
+            'boilerplate_link' => 'Laravel 5 Boilerplate',
+            'continue' => 'Продължи',
+            'member_since' => 'Потребител от',
+            'minutes' => ' минути',
+            'search_placeholder' => 'Търси...',
+            'timeout' => 'Бяхте автоматично изхвърлен от съображения за сигурност, тъй като не сте имали дейност',
+           
             'see_all' => [
                 'messages' => 'Вижте всички съобщения',
                 'notifications' => 'Вижте всички',
@@ -51,15 +52,16 @@ return [
                 'more_info' => 'Виж всички',
                 '' => '',
             ],
-
             'status' => [
-                'offline' => 'Офлайн',
                 'online' => 'Онлайн',
+                'offline' => 'Офлайн',
+				'active' => 'Активен',
+				'deactive' => 'Забранен',
             ],
             'you_have' => [
-                'messages' => '{0} У Вас нет сообщений|{1} У Вас 1 сообщение|[2,Inf] У Вас :number сообщений',
-                'notifications' => '{0} У Вас нет уведомлений|{1} У Вас есть 1 уведомление|[2,Inf] У Вас :number уведомлений',
-                'tasks' => '{0} У Вас нет заданий|{1} У Вас 1 задание|[2,Inf] У Вас :number заданий',
+                'messages' => '{0} Нямате съобщения|{1} Имате 1 съобщение|[2,Inf] Имате :number съобщения',
+                'notifications' => '{0} Нямате известия|{1} Имате 1 известие|[2,Inf] Имате :number известия',
+                'tasks' => '{0} Нямате задачи|{1} Имате 1 задачи|[2,Inf] Имате :number задачи',
             ],
         ],
 
@@ -70,7 +72,7 @@ return [
             'title' => 'Результаты поиска',
         ],
 
-        'welcome' => 'Добре дошли в администрацията',
+        'welcome' => 'Welcome to the Dashboard',
     ],
 
     'emails' => [
@@ -127,6 +129,17 @@ return [
             'password_updated' => 'Пароль изменен.',
             'profile_updated' => 'Профиль изменен.',
         ],
-        'welcome_to' => 'Добро пожаловать в приложение :place',
+        'welcome_to' => 'Добре дошли в :place',
+        'new_song' => 'Нови песни',
+        'top_song' => 'Топ песни',
+        'login_create' => 'Влезте или се регистрирайте !',
+        'save_plylist' => 'Save and share your playlist with your friends when you log in or create an account.',
+        'download_app' => 'Изтеглете нашето приложение',
+        'download_app_info' => 'Get the apps for desktop and mobile to start listening music at anywhere and anytime.',
+        '' => '',
+        'db' => [
+            'empty_table' => 'Няма записи в базата',
+            'empty_events' => 'Няма събития към момента'
+        ],
     ],
 ];
